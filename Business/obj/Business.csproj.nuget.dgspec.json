@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Business\\Business.csproj": {}
+    "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\mutlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,11 +32,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Entities\\Entities.csproj"
               }
             }
           }
@@ -51,6 +51,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -72,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\mutlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -137,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\mutlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -165,11 +173,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Core\\Core.csproj"
               },
-              "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Entities\\Entities.csproj"
               }
             }
           }
@@ -213,14 +221,14 @@
         }
       }
     },
-    "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\mutlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -241,8 +249,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject3\\Core\\Core.csproj"
               }
             }
           }

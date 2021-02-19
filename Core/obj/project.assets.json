@@ -6206,11 +6206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\mutlu\\Source\\Repos\\ReCapProject3\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\mutlu\\Source\\Repos\\ReCapProject3\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\mutlu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mutlu\\source\\repos\\ReCapProject\\Core\\obj\\",
+      "outputPath": "C:\\Users\\mutlu\\Source\\Repos\\ReCapProject3\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
