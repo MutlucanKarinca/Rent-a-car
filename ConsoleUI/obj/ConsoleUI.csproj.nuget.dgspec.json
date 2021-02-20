@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
