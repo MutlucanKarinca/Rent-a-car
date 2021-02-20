@@ -4,6 +4,8 @@ using System.Linq.Expressions;
 using System.Text.RegularExpressions;
 using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -19,17 +21,15 @@ namespace Business.Concrete
         {
             _rentalDal = rentalDal;
         }
+
+        [ValidationAspect(typeof(RentalValidator))]
         public IResult Add(Rental rental)
         {
-            var AvailableCar = _rentalDal.GetRentalDetails(r => r.CarId == rental.CarId);
-            if (AvailableCar.Count > 0)
-            {
-                return new ErrorResult(Messages.CarNotAvailable);
-            }
             _rentalDal.Add(rental);
             return new SuccessResult();
         }
 
+        [ValidationAspect(typeof(RentalValidator))]
         public IResult Update(Rental rental)
         {
             _rentalDal.Update(rental);

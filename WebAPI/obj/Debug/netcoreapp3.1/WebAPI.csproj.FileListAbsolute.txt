@@ -138,3 +138,4 @@ C:\Users\mutlu\source\repos\ReCapProject3\WebAPI\obj\Debug\netcoreapp3.1\scopedc
 C:\Users\mutlu\source\repos\ReCapProject3\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\mutlu\source\repos\ReCapProject3\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 C:\Users\mutlu\source\repos\ReCapProject3\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\mutlu\source\repos\ReCapProject3\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
