@@ -16,6 +16,8 @@ namespace Business.Constants
         public static string CarIdInvalid = "Araba Id'si bulunamadı";
         public static string CarUpdated="Araba güncellendi";
         public static string RentedCar = "Araba kiralandı";
-        internal static string CarNotAvailable = "Araba kiralanmaya uygun değil";
+        public static string CarNotAvailable = "Araba kiralanmaya uygun değil";
+
+        public static string CarLimitExceeded = "En fazla 5 resim ekleyebilirsiniz";
     }
 }

@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Images\2be5d4c7c840405a960384f117e93b92_2_27_2021.jpg" />
+    <Content Remove="wwwroot\Images\79eb50ef28b34e4787da66c280c65a21_2_27_2021.jpg" />
+    <Content Remove="wwwroot\Images\b839d29c0fc94f03985171b72048ab3a_2_27_2021.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
   </ItemGroup>
 
