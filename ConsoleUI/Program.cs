@@ -47,12 +47,12 @@ namespace ConsoleUI
             Console.WriteLine(result.Message);
         }
 
-        private static void UserAdd()
-        {
-            UserManager userManager = new UserManager(new EfUserDal());
-            userManager.Add(new User
-            { FirstName = "Dimitrios", LastName = "Pelkas", Email = "deneme2@gmail.com", Password = "1907" });
-        }
+        //private static void UserAdd()
+        //{
+        //    UserManager userManager = new UserManager(new EfUserDal());
+        //    userManager.Add(new User
+        //    { FirstName = "Dimitrios", LastName = "Pelkas", Email = "deneme2@gmail.com" });
+        //}
 
         private static void CarDeleteTest()
         {

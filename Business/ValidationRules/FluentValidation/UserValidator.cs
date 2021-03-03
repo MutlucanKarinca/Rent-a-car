@@ -16,7 +16,7 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(u => u.Email).EmailAddress();
             RuleFor(u => u.FirstName).NotEmpty();
             RuleFor(u => u.LastName).NotEmpty();
-            RuleFor(u => u.Password).MinimumLength(8);
+            //RuleFor(u => u.Password).MinimumLength(8);
             RuleFor(u => u.Email).Must(uniqueEmail).WithMessage("Kayıt olduğunuz email zaten sistemde kayıtlı");
 
         }
