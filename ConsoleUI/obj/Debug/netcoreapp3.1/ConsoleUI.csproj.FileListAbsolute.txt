@@ -68,3 +68,7 @@ C:\Users\mutlu\source\repos\ReCapProject3\ConsoleUI\bin\Debug\netcoreapp3.1\Flue
 C:\Users\mutlu\source\repos\ReCapProject3\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\mutlu\source\repos\ReCapProject3\ConsoleUI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\mutlu\source\repos\ReCapProject3\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\mutlu\source\repos\ReCapProject3\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll
+C:\Users\mutlu\source\repos\ReCapProject3\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\mutlu\source\repos\ReCapProject3\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+C:\Users\mutlu\source\repos\ReCapProject3\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
