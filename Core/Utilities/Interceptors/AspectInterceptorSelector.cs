@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Reflection;
 using Castle.DynamicProxy;
+using Core.Aspects.Autofac.PerformanceAspect;
 
 namespace Core.Utilities.Interceptors
 {
@@ -15,7 +16,7 @@ namespace Core.Utilities.Interceptors
                 .GetCustomAttributes<MethodInterceptionBaseAttribute>(true);
             classAttributes.AddRange(methodAttributes);
             //classAttributes.Add(new ExceptionLogAspect(typeof(FileLogger))); her şeye loglama ekler
-
+            classAttributes.Add(new PerformanceAspect(5)); // her şeye performance ekler
             return classAttributes.OrderBy(x => x.Priority).ToArray();
         }
     }
