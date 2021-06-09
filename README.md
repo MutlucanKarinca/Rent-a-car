@@ -7,7 +7,7 @@
 - SQL tablosunu oluşturmak için [SQL Sorgu](https://github.com/MutlucanKarinca/ReCapProject/blob/main/SQLQuery.sql "SQL Sorgu")
 
 
-# ReCapProject - Araç Kiralama
+# Rent a Car - Araç Kiralama
 
 ![](https://ouch-cdn.icons8.com/preview/263/d597caab-0c13-49be-88d8-b39ab8db1ac0.png)
 
